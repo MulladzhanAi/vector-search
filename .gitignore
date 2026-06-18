@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtualenv
+.venv/
+
+# Локальный кэш модели эмбеддингов (~1.1 GB)
+models/
+
+# Локальные настройки (в репо только .env.example)
+.env
