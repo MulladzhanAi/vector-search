@@ -8,7 +8,6 @@ class Settings(BaseSettings):
     index_name: str = "products"
     model_name: str = "intfloat/multilingual-e5-base"
     embed_dim: int = 768
-    # Локальный (проектный) кэш модели, чтобы не держать её в ~/.cache.
     models_dir: str = "models"
 
     model_config = SettingsConfigDict(
