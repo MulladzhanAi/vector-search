@@ -8,8 +8,7 @@
 **Стек:** Python 3.11, FastAPI, Elasticsearch 8.x (нативный kNN),
 sentence-transformers (`intfloat/multilingual-e5-base`, векторы 768).
 
-> ⚠️ Elasticsearch поднимается на порту **9201** (порт 9200 занят другим
-> локальным проектом). Kibana — на **5602**.
+> ⚠️ Elasticsearch поднимается на порту **9201**. Kibana — на **5602**.
 
 ---
 
